@@ -30,7 +30,6 @@ class StatusSelection:
 
     def select(self, channel):
         if GPIO.input(self.__gpio) == GPIO.HIGH and self.__selected == False:
-            time.sleep(.300) #sleep half a second and make sure that the switch is resting on the correct status
             if GPIO.input(self.__gpio) == GPIO.HIGH and self.__selected == False:
                 print("GPIO: " + str(self.__gpio) + " | EMOJI: " + str(self.__emoji) + " | MESSAGE: " + self.__message)
                 sendStatus(self)
