@@ -2,14 +2,15 @@
 Raspberry Pi Slack Status Selector Project
 
 ************************************************************
-*components*
+**components**
+
 Raspberry Pi 2 Model B ( Jessie / python 3.4.2 )
 
 Rotary Switch: Single Pole / 10 positions ( https://www.sparkfun.com/products/13253 )
 
 Knob: 15x19mm ( https://www.sparkfun.com/products/9998 )
 ************************************************************
-*Preliminary Steps*
+**Preliminary Steps**
 
 1. Create a Slack App in your workspace
 2. Add User permissions:
@@ -22,7 +23,7 @@ Knob: 15x19mm ( https://www.sparkfun.com/products/9998 )
 
 *************************************************************
 
-*Run code*
+**Run code**
 `python3 status.py` 
 
 
