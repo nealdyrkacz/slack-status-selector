@@ -6,6 +6,7 @@ Raspberry Pi Slack Status Selector Project
 Raspberry Pi 2 Model B ( Jessie / python 3.4.2 )
 
 Rotary Switch: Single Pole / 10 positions ( https://www.sparkfun.com/products/13253 )
+
 Knob: 15x19mm ( https://www.sparkfun.com/products/9998 )
 ************************************************************
 *Preliminary Steps*
